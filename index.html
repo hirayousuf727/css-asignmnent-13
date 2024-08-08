@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .nav{
+            background-color: black;
+            display: flex;
+            height: 70px;
+        }
+        .logo{
+            width: 80px;
+            height: 50px;
+          margin-top: 10px;
+        }
+        p{
+        color: white;
+            display: inline-block;
+            margin-top: 30px;
+            text-transform: capitalize;
+        }
+        p:hover{
+            background-color: gray;
+            height: 30px;
+        }
+        .icon{
+            display: inline-block;
+            margin-top: 20px;
+        }
+        ul{
+            display: flex;
+            background-color: rgb(141, 141, 141);
+            color: red;
+            height: 70px;
+        }
+        li{
+            padding: 10px;
+            margin: 20px;
+            list-style: none;
+        }
+        .p1{
+        margin-top: -10px;
+        }
+        .teacher{
+            object-fit: cover;
+            width:1300px;
+            height: 500px;
+            position: relative;
+        }
+        .h1{
+            position: absolute;
+            margin-top: -300px;
+        }
+        .h4{
+         height: 200px;
+            width: 300px;
+            margin-top: -250px;
+            position: absolute;
+        }
+        .div2{
+            position: relative;
+        }
+        .button1{
+            background-color: rgb(12, 9, 206);
+            color: white;
+            width: 100px;
+            height: 50px;
+          
+            
+        }
+        .button2{
+            background-color: rgb(240, 6, 240);
+            color: white;
+            width: 100px;
+            height: 50px;
+       
+    
+        }
+        .button1:hover{
+            background-color: rgba(41, 5, 245, 0.404);
+         color: black;
+            box-shadow: 0px 20px 20px rgb(102, 102, 230), 0px 20px 20px rgb(26, 26, 226);
+        }
+        .button2:hover{
+         background-color: rgba(245, 5, 245, 0.404);
+         color: black;
+            box-shadow: 0px 20px 20px rgb(238, 146, 238), 0px 20px 20px rgb(231, 13, 231);
+        }
+        .card1{
+            border: 3px solid black;
+            width: 200px;
+            height: 270px;
+            margin-left: 70px;
+        }
+        .card1{
+            display: inline-block;
+        }
+        .num{
+         display: flex;
+            background-color: aquamarine;
+        }
+        .num1{
+            padding: 10px;
+            margin: 10px;
+            text-align: center;
+        }
+        .lead1{
+            display: inline-block;
+            border: 3px solid black;
+            width: 200px;
+            height: 270px;
+            margin-left: 70px;
+            margin-top: 60px;
+           
+        }
+        .lead2{
+            display: inline-block;
+            border: 3px solid black;
+            width: 200px;
+            height: 270px;
+            margin-left: 70px;
+            margin-top: 160px;
+           
+        }  
+              .lead3{
+            display: inline-block;
+            border: 3px solid black;
+            width: 200px;
+            height: 270px;
+            margin-left: 70px;
+            margin-top: 160px;
+           
+        }
+        .div5{
+            display: flex;
+            justify-content: center;
+        }
+        .under{
+            background-color: pink;
+            height: 50px;
+        }
+        .under:hover{
+            box-shadow: 0px 20px 20px pink, 0px 20px 20px purple, 0px 20px 20px red ;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="main">
+        <header class="header">
+            <nav class="nav"><img src="logo.png" alt="" class="logo"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<p id="#human">+ human resources </p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" class="icon" width="24px" fill="#5f6368"><path d="M280-40q-33 0-56.5-23.5T200-120v-720q0-33 23.5-56.5T280-920h400q33 0 56.5 23.5T760-840v720q0 33-23.5 56.5T680-40H280Zm0-200v120h400v-120H280Zm200 100q17 0 28.5-11.5T520-180q0-17-11.5-28.5T480-220q-17 0-28.5 11.5T440-180q0 17 11.5 28.5T480-140ZM280-320h400v-400H280v400Zm0-480h400v-40H280v40Zm0 560v120-120Zm0-560v-40 40Z"/></svg> <svg xmlns="http://www.w3.org/2000/svg" class="icon" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M280-40q-33 0-56.5-23.5T200-120v-720q0-33 23.5-56.5T280-920h400q33 0 56.5 23.5T760-840v720q0 33-23.5 56.5T680-40H280Zm0-120v40h400v-40H280Zm0-80h400v-480H280v480Zm0-560h400v-40H280v40Zm0 0v-40 40Zm0 640v40-40Z"/></svg><svg xmlns="http://www.w3.org/2000/svg" class="icon" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M40-120v-80h880v80H40Zm120-120q-33 0-56.5-23.5T80-320v-440q0-33 23.5-56.5T160-840h640q33 0 56.5 23.5T880-760v440q0 33-23.5 56.5T800-240H160Zm0-80h640v-440H160v440Zm0 0v-440 440Z"/></svg><svg xmlns="http://www.w3.org/2000/svg" class="icon"
+                height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M240-160q-50 0-85-35t-35-85H40v-440q0-33 23.5-56.5T120-800h560v160h120l120 160v200h-80q0 50-35 85t-85 35q-50 0-85-35t-35-85H360q0 50-35 85t-85 35Zm0-80q17 0 28.5-11.5T280-280q0-17-11.5-28.5T240-320q-17 0-28.5 11.5T200-280q0 17 11.5 28.5T240-240ZM120-360h32q17-18 39-29t49-11q27 0 49 11t39 29h272v-360H120v360Zm600 120q17 0 28.5-11.5T760-280q0-17-11.5-28.5T720-320q-17 0-28.5 11.5T680-280q0 17 11.5 28.5T720-240Zm-40-200h170l-90-120h-80v120ZM360-540Z"/></svg><svg xmlns="http://www.w3.org/2000/svg" class="icon" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>
+            </nav>
+            <ul>
+                <li>     <p class="p1">human resources</p></li>
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                <li>home</li>
+                <li>about</li>
+                <li>services</li>
+                <li>blogs</li>
+                <li>contact us </li>
+            </ul>
+            <div class="div2">
+                <img src="teacher.jpg" alt="" class="teacher">
+                <h1 class="h1">
+                    we are your parents in human resources
+                </h1>
+                <h4 class="h4">
+   Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae saepe, maxime ea asperiores doloribus eaque earum quibusdam ad vero qui nesciunt corporis quasi veritatis iste esse ullam minus labore quia?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi totam voluptate ipsam mollitia recusandae pariatur odio distinctio sint inventore. Et aut iste cupiditate vitae blanditiis sequi veniam deleniti voluptatum odio!Lorem
+   &nbsp;
+   &nbsp;
+   &nbsp;
+   &nbsp;
+   &nbsp;
+<button class="button1">Get Started </button> <button class="button2">Learn More </button>
+</h4>           
+</div>
+            <div class="div3">
+                <div class="card1">
+                <svg class="card" xmlns="http://www.w3.org/2000/svg" height="50px" viewBox="0 -960 960 960" width="50px" fill="#5f6368"><path d="M240-400h320v-80H240v80Zm0-120h480v-80H240v80Zm0-120h480v-80H240v80ZM80-80v-720q0-33 23.5-56.5T160-880h640q33 0 56.5 23.5T880-800v480q0 33-23.5 56.5T800-240H240L80-80Zm126-240h594v-480H160v525l46-45Zm-46 0v-480 480Z"/></svg>
+        <h2>        Corporate Collaboration</h2>
+                A small river named Duden flows by their place and supplies it with the necessary regelialia.
+                
+                Learn More
+            </div> 
+            <div class="card1">
+                <svg 
+               class="card" xmlns="http://www.w3.org/2000/svg" height="50px" viewBox="0 -960 960 960" width="50px" fill="#5f6368"><path d="M694-160 553-302l56-56 85 85 170-170 56 57-226 226ZM80-80v-720q0-33 23.5-56.5T160-880h640q33 0 56.5 23.5T880-800v280h-80v-280H160v525l46-45h274v80H240L80-80Zm80-240v-480 480Z"/></svg>
+               <h2>        Corporate Collaboration</h2>
+               A small river named Duden flows by their place and supplies it with the necessary regelialia.
+               
+               Learn More
+            </div>
+            <div class="card1">
+                <svg xmlns="http://www.w3.org/2000/svg" class="card" height="50px" viewBox="0 -960 960 960" width="50px" fill="#5f6368"><path d="M500-520v-280H160v525l46-45h594v-480H700v280l-100-60-100 60ZM80-80v-720q0-33 23.5-56.5T160-880h640q33 0 56.5 23.5T880-800v480q0 33-23.5 56.5T800-240H240L80-80Zm80-720v480-480Z"/></svg> <h2>        Corporate Collaboration</h2>
+               A small river named Duden flows by their place and supplies it with the necessary regelialia.
+               
+               Learn More
+            </div>
+            </div>
+            <div class="num">
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+        
+          
+
+                <div class="num1">
+                    99,399
+                    <br>
+                    number of cleints 
+                </div>
+                <div class="num1">
+                    199
+                    <br>
+                    number of persnol
+                </div>
+                <div class="num1">
+                    2 year 
+                    <br>
+                    expeirience 
+                </div>
+            </div>
+           <div class="div5">
+            <div>
+            <h1>the leader ship </h1>
+            <br>
+            <img src="boys.jpg" alt="" class="lead1">
+         </div>
+           <div>
+      <img src="jean smith.jpg" alt="" class="lead2">
+         </div>
+          <div>
+            <img src="bot.jpg" alt="" class="lead3">
+              </div>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+
+        </div>
+        <div class="box1">
+            <center>
+            <h1 class="hi">happy customer 
+                <br>
+                “
+            </h1>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque quis laboriosam nihil? Atque aliquid ipsa odit accusamus dolores 
+            <br>quod illum quo quos cumque repellat explicabo dolorem placeat illo, expedita nostrum,
+            <br> at fugit inventore. Cum accusamus sapiente molestias, porro expedita ratione, ipsum enim, 
+            <br>distinctio iusto libero ad at deleniti eos. Vero quod inventore nulla exercitationem autem ipsam ipsum nihil i
+            <br>ste ametb ipsa temporibus, molestias voluptate minima, ullam eius. Vitae, enim consectetur unde vel ullam nam quam culpa velit porro officia! Quasi, 
+            <br>sint. Quae, fugit, at quisquam culpa ipsam exercitationem neque esse veritatis tempore corrupti hic explicabo non consectetur animi suscipit 
+            <br>nostrum voluptatum commodi modi quaerat assumenda facere, molestiae tempora doloribus? Excepturi voluptatibus magni unde itaque perspiciatis necessitatibus quae repellendus
+            <br> obcaecati quisquam! Illo sequi maiores accusantium, commodi perspiciatis vel voluptatum sint corrupti natus in enim modi qui ten
+ </center>
+        </div>
+        <br>
+   <div class="under">
+    made by hira yousuf 
+    age 13 
+   </div>
+
+</body>
+</html>
